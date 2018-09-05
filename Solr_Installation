@@ -39,3 +39,9 @@ curl http://ecsvwn01p:8983/solr/Blog_Scrap/update --data '<commit/>' -H 'Content
 
 
  sudo ls  /var/solr/data/Blog_Scrap/conf   -- to find out the config files, you can find the managed schema and stop words.txt in this location
+ 
+ 
+ Sample scripts -
+ 
+ http://ecsvwn01p:8983/solr/new_core/terms?terms.fl=Content&terms.list=research,error
+ http://ecsvwn01p:8983/solr/BTO_Full/terms?terms.fl=Content&terms.list=research,error
