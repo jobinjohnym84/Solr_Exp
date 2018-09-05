@@ -6,3 +6,4 @@ This mainly help us to perform -
    b) Configration
    c) Troubleshooting
    d) Managed schema and stopwords
+   e) PySolr
