@@ -36,3 +36,6 @@ curl http://ecsvwn01p:8983/solr/Blog_Scrap/update
 
 
 curl http://ecsvwn01p:8983/solr/Blog_Scrap/update --data '<commit/>' -H 'Content-type:text/xml; charset=utf-8'
+
+
+ sudo ls  /var/solr/data/Blog_Scrap/conf   -- to find out the config files, you can find the managed schema and stop words.txt in this location
